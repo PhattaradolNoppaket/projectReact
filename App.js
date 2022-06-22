@@ -6,7 +6,7 @@ import styles from'./components/styles';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text >SaigrogEzan</Text>
+      <Text >GoGo PowerRangerrrrrrrrr</Text>
     <Logo/>
     </View>
     

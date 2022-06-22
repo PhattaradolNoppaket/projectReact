@@ -13,7 +13,7 @@ export default Logo
 
 const styles = StyleSheet.create({
     textLogo:{
-        color:"blue",
-        fontSize:40
+        color:"magenta",
+        fontSize:60
     }
 })
