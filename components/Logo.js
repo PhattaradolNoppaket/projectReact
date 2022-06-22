@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import styles from './StySheet'
 
 const Logo = () => {
   return (
@@ -11,9 +12,3 @@ const Logo = () => {
 
 export default Logo
 
-const styles = StyleSheet.create({
-    textLogo:{
-        color:"magenta",
-        fontSize:60
-    }
-})
