@@ -1,17 +1,15 @@
-import { View, Text ,StyleSheet} from 'react-native'
-import React from 'react'
-import Logo from './components/Logo'
-import styles from'./components/styles';
+import { View, Text } from "react-native";
+import React from "react";
+import Logo from "./components/Logo";
+import User from "./components/User";
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>GoGo PowerRangerrrrrrrrr</Text>
-    <Logo/>
+    <View>
+      <Logo />
+      <User />
     </View>
-    
-  )
-}
+  );
+};
 
-export default App
-;
+export default App;
