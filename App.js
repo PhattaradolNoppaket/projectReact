@@ -6,7 +6,9 @@ import User from "./components/User";
 // import AlertComponent from "./components/AlertComponent"
 // import ImageWithTextInput from "./components/ImageWithTextInput"
 // import ButtonExample from "./components/ButtonExample";
-import Touchable_Example from "./components/Touchable_Example";
+// import Touchable_Example from "./components/Touchable_Example";
+
+import TouchablePractice from "./components/TouchablePractice"
 const App = () => {
   return (
     <View style={{flex:1}} >
@@ -15,7 +17,8 @@ const App = () => {
       {/* <UserNamePassword> */}
       {/* <AlertComponent/> */}
       {/* <ButtonExample/> */}
-      <Touchable_Example/>
+      {/* <Touchable_Example/> */}
+      <TouchablePractice/>
     </View>
   );
 };
