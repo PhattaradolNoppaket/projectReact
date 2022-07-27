@@ -8,7 +8,10 @@ import User from "./components/User";
 // import ButtonExample from "./components/ButtonExample";
 // import Touchable_Example from "./components/Touchable_Example";
 
-import TouchablePractice from "./components/TouchablePractice"
+// import TouchablePractice from "./components/TouchablePractice"
+// import DynamicStyle from "./components/DynamicStyle";
+//  import ModalExample from "./components/ModalExample";
+ import ModalPractice from "./components/ModalPractice";
 const App = () => {
   return (
     <View style={{flex:1}} >
@@ -18,7 +21,10 @@ const App = () => {
       {/* <AlertComponent/> */}
       {/* <ButtonExample/> */}
       {/* <Touchable_Example/> */}
-      <TouchablePractice/>
+      {/* <TouchablePractice/> */}
+      {/* <DynamicStyle/> */}
+      {/* <ModalExample/> */}
+       <ModalPractice/> 
     </View>
   );
 };
